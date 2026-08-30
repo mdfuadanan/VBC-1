@@ -57,18 +57,18 @@ The VBC-1 architecture is structured into modular RTL components:
 
 ## Block Diagram
 
-```
+```mermaid
 flowchart TB
-    subgraph Control_Unit [Control & Sequencing]
+    subgraph Control_Unit["Control & Sequencing"]
         RPC["Program Counter (VBC1_RPC)<br/>prog_a[3:0]"]
         MEM["Instruction Memory (16 Bytes)<br/>16 x 8-bit"]
         DEC["Instruction Decoder<br/>Control Signals M1..M6, Load Enables"]
     end
 
-    subgraph Data_Path [VBC-1 Datapath]
-        M4["MUX4 (R0/R1)"]
+    subgraph Datapath["VBC-1 Datapath"]
+        M4["MUX4 (R0 / R1)"]
         M5["MUX5 (Reg / Imm)"]
-        M2["MUX2 (R0/R1)"]
+        M2["MUX2 (R0 / R1)"]
         ALU["ALU (ADD, ADDI, SHIFT, LOADI)"]
         M3["MUX3 (ALU / Reg)"]
         M1["MUX1 (ALU / DI)"]
@@ -77,27 +77,38 @@ flowchart TB
         OP_REG["Output Register OP (4-bit)"]
     end
 
-    subgraph IO_Module [Peripherals & I/O]
+    subgraph IO_Module["Peripherals & I/O"]
         SW_IN["4-bit Switches (SW)"]
         LED_OUT["8-bit LEDs (IO + OP)"]
         SEG_OUT["7-Segment Display (Seg[6:0])"]
         BTN_SYNC["One-Pulse Debouncer (CLK Step)"]
     end
 
-    RPC -->|pc_addr| MEM
-    MEM -->|IR[7:0]| DEC
-    MEM -->|IR[3:0]| M5
-    MEM -->|IR[7:5]| ALU
+    RPC -->|"pc_addr[3:0]"| MEM
+    MEM -->|"IR[7:0]"| DEC
+    MEM -->|"IR[3:0]"| M5
+    MEM -->|"IR[7:5]"| ALU
 
-    DEC -->|M1..M5, Load_R0, Load_R1, Load_OP| Data_Path
-    DEC -->|M6 (Jump Load)| RPC
+    DEC -->|"Load_R0"| R0
+    DEC -->|"Load_R1"| R1
+    DEC -->|"Load_OP"| OP_REG
+    DEC -->|"M1..M5"| M1
+    DEC -->|"M6 (Jump Load)"| RPC
 
-    R0 -->|Z0 Detection| DEC
-    R1 -->|Z1 Detection| DEC
+    R0 -->|"Z0 (R0=0)"| DEC
+    R1 -->|"Z1 (R1=0)"| DEC
 
-    SW_IN -->|di| M1
-    M1 --> R0 & R1
-    R0 & R1 --> M2 & M4
+    SW_IN -->|"di[3:0]"| M1
+    SW_IN --> SEG_OUT
+
+    M1 --> R0
+    M1 --> R1
+
+    R0 --> M2
+    R1 --> M2
+    R0 --> M4
+    R1 --> M4
+
     M4 --> M5
     M2 --> ALU
     M5 --> ALU
@@ -107,8 +118,7 @@ flowchart TB
 
     M2 --> OP_REG
     OP_REG --> LED_OUT
-    SW_IN --> SEG_OUT
-    BTN_SYNC -->|Single Pulse CLK| RPC & Data_Path
+    BTN_SYNC -->|"Single Pulse CLK"| RPC
 ```
 
 ---
