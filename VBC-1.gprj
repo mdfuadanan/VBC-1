@@ -1,0 +1,28 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NZ-1" pn="GW1NZ-LV1QN48C6/I5">gw1nz1-015</Device>
+    <FileList>
+        <File path="src/16_Byte_Instruction_Memory.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/2_to_1_MUX.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/4_bit_loadable_register.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/One_Pulse_Button.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/VBC1_ALU.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/VBC1_Borad_Top.vhd" type="file.vhdl" enable="0"/>
+        <File path="src/VBC1_Data_Path.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/VBC1_IO_Module.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/VBC1_Instruction_Decoder.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/VBC1_Neg_Borad_Top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/VBC1_RPC.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/VBC1_Top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/tb_VBC1_Board_Top.vhd" type="file.vhdl" enable="0"/>
+        <File path="src/tb_VBC1_Data_Path.vhd" type="file.vhdl" enable="0"/>
+        <File path="src/tb_VBC1_Instuction_Decoder.vhd" type="file.vhdl" enable="0"/>
+        <File path="src/tb_VBC1_Top.vhd" type="file.vhdl" enable="0"/>
+        <File path="src/VBC-1.cst" type="file.cst" enable="1"/>
+        <File path="src/Wave_out_put_of_VBC1_Board_Top.gtkw" type="file.other" enable="1"/>
+        <File path="src/Wave_out_put_of_VBC1_Top.gtkw" type="file.other" enable="1"/>
+    </FileList>
+</Project>

@@ -1,0 +1,68 @@
+{
+ "Device" : "GW1NZ-1",
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/16_Byte_Instruction_Memory.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/2_to_1_MUX.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/4_bit_loadable_register.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/One_Pulse_Button.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_ALU.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_IO_Module.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Instruction_Decoder.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Neg_Borad_Top.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_RPC.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Top.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Codes/VHDL/Gowin/VBC-1/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

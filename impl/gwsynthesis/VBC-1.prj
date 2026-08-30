@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NZ-1" package="QFN48" speed="6" partNumber="GW1NZ-LV1QN48C6/I5"/>
+    <FileList>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\16_Byte_Instruction_Memory.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\2_to_1_MUX.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\4_bit_loadable_register.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\One_Pulse_Button.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_ALU.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Data_Path.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_IO_Module.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Neg_Borad_Top.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_RPC.vhd" type="vhdl"/>
+        <File path="D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Top.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\Codes\VHDL\Gowin\VBC-1\impl\gwsynthesis\VBC-1.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

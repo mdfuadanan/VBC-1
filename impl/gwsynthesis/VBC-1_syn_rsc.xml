@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="VBC1_Board_Top" Lut="17" T_Register="28(0)" T_Alu="4(0)" T_Lut="64(17)">
+ <SubModule name="U_BTN" Register="4" Lut="2" T_Register="4(4)" T_Lut="2(2)"/>
+ <SubModule name="UUT" T_Register="24(0)" T_Alu="4(0)" T_Lut="45(0)">
+  <SubModule name="IO_Mudule" Register="8" Lut="4" T_Register="8(8)" T_Lut="4(4)"/>
+  <SubModule name="Instruction_Decoder" Lut="3" T_Lut="3(3)"/>
+  <SubModule name="Data_Path" T_Register="12(0)" T_Alu="4(0)" T_Lut="31(0)">
+   <SubModule name="MUX2" Lut="5" T_Lut="5(5)"/>
+   <SubModule name="MUX5" Lut="6" T_Lut="6(6)"/>
+   <SubModule name="ALU1" Alu="4" T_Alu="4(4)"/>
+   <SubModule name="MUX1" Lut="20" T_Lut="20(20)"/>
+   <SubModule name="REG_R0" Register="4" T_Register="4(4)"/>
+   <SubModule name="REG_R1" Register="4" T_Register="4(4)"/>
+   <SubModule name="REG_OP" Register="4" T_Register="4(4)"/>
+  </SubModule>
+  <SubModule name="RPC" Register="4" Lut="7" T_Register="4(4)" T_Lut="7(7)"/>
+ </SubModule>
+</Module>

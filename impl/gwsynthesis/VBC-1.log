@@ -1,0 +1,79 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\16_Byte_Instruction_Memory.vhd'
+Analyzing entity 'instruction_memory_16_byte'("D:\Codes\VHDL\Gowin\VBC-1\src\16_Byte_Instruction_Memory.vhd":5)
+Analyzing architecture 'behavioral'("D:\Codes\VHDL\Gowin\VBC-1\src\16_Byte_Instruction_Memory.vhd":15)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\2_to_1_MUX.vhd'
+Analyzing entity 'mux2_1'("D:\Codes\VHDL\Gowin\VBC-1\src\2_to_1_MUX.vhd":3)
+Analyzing architecture 'behavior'("D:\Codes\VHDL\Gowin\VBC-1\src\2_to_1_MUX.vhd":10)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\4_bit_loadable_register.vhd'
+Analyzing entity 'loadable_reg_4_bit'("D:\Codes\VHDL\Gowin\VBC-1\src\4_bit_loadable_register.vhd":4)
+Analyzing architecture 'behavioral'("D:\Codes\VHDL\Gowin\VBC-1\src\4_bit_loadable_register.vhd":12)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\One_Pulse_Button.vhd'
+Analyzing entity 'one_pulse_button'("D:\Codes\VHDL\Gowin\VBC-1\src\One_Pulse_Button.vhd":5)
+Analyzing architecture 'behavioral'("D:\Codes\VHDL\Gowin\VBC-1\src\One_Pulse_Button.vhd":13)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_ALU.vhd'
+Analyzing entity 'vbc1_alu'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_ALU.vhd":5)
+Analyzing architecture 'behavior'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_ALU.vhd":12)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Data_Path.vhd'
+Analyzing entity 'vbc1_data_path'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Data_Path.vhd":4)
+Analyzing architecture 'dataflow'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Data_Path.vhd":16)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_IO_Module.vhd'
+Analyzing entity 'vbc1_io_module'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_IO_Module.vhd":4)
+Analyzing architecture 'behavioral'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_IO_Module.vhd":13)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd'
+Analyzing entity 'vbc1_instruction_decoder'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":4)
+Analyzing architecture 'behavioral'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":13)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Top.vhd'
+Analyzing entity 'vbc1_top'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Top.vhd":3)
+Analyzing architecture 'behavioral'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Top.vhd":15)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Neg_Borad_Top.vhd'
+Analyzing entity 'vbc1_board_top'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Neg_Borad_Top.vhd":4)
+Analyzing architecture 'behavioral'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Neg_Borad_Top.vhd":14)
+Analyzing VHDL file 'D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_RPC.vhd'
+Analyzing entity 'vbc1_rpc'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_RPC.vhd":5)
+Analyzing architecture 'mixed'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_RPC.vhd":12)
+WARN  (EX4967) : Cannot read from 'out' object 'prog_a', use 'buffer' or 'inout' instead("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_RPC.vhd":18)
+Processing 'VBC1_Board_Top(Behavioral)'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Neg_Borad_Top.vhd":4)
+Processing 'One_Pulse_Button(Behavioral)'("D:\Codes\VHDL\Gowin\VBC-1\src\One_Pulse_Button.vhd":5)
+Processing 'VBC1_Top(behavioral)'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Top.vhd":3)
+Processing 'VBC1_IO_Module(Behavioral)'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_IO_Module.vhd":4)
+Processing 'VBC1_Instruction_Decoder(behavioral)'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":4)
+'others' clause is never selected("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":64)
+'others' clause is never selected("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":78)
+'others' clause is never selected("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":102)
+'others' clause is never selected("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":119)
+'others' clause is never selected("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":141)
+'others' clause is never selected("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":150)
+'others' clause is never selected("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":159)
+'others' clause is never selected("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Instruction_Decoder.vhd":173)
+Processing 'VBC1_Data_Path(dataflow)'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Data_Path.vhd":4)
+Processing 'mux2_1(behavior)'("D:\Codes\VHDL\Gowin\VBC-1\src\2_to_1_MUX.vhd":3)
+Processing 'VBC1_ALU(behavior)'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_ALU.vhd":5)
+Processing 'loadable_reg_4_bit(behavioral)'("D:\Codes\VHDL\Gowin\VBC-1\src\4_bit_loadable_register.vhd":4)
+Processing 'Instruction_Memory_16_Byte(Behavioral)'("D:\Codes\VHDL\Gowin\VBC-1\src\16_Byte_Instruction_Memory.vhd":5)
+Extracting RAM for identifier 'mem'("D:\Codes\VHDL\Gowin\VBC-1\src\16_Byte_Instruction_Memory.vhd":19)
+Processing 'VBC1_RPC(mixed)'("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_RPC.vhd":5)
+NOTE  (EX0101) : Current top module is "VBC1_Board_Top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "mux2_1" instantiated to "MUX3" is swept in optimizing("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Data_Path.vhd":89)
+WARN  (NL0002) : The module "mux2_1" instantiated to "MUX4" is swept in optimizing("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Data_Path.vhd":59)
+WARN  (NL0002) : The module "Instruction_Memory_16_Byte" instantiated to "Pre_Loaded_Memory" is swept in optimizing("D:\Codes\VHDL\Gowin\VBC-1\src\VBC1_Top.vhd":115)
+[95%] Generate netlist file "D:\Codes\VHDL\Gowin\VBC-1\impl\gwsynthesis\VBC-1.vg" completed
+[100%] Generate report file "D:\Codes\VHDL\Gowin\VBC-1\impl\gwsynthesis\VBC-1_syn.rpt.html" completed
+GowinSynthesis finish

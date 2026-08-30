@@ -1,0 +1,52 @@
+[*]
+[*] GTKWave Analyzer v3.3.127 (w)1999-2026 BSI
+[*] Tue Aug 25 17:55:09 2026
+[*]
+[dumpfile] "c:\Users\mdfua\.teroshdl\build\wave.vcd"
+[dumpfile_mtime] "Tue Aug 25 17:52:11 2026"
+[dumpfile_size] 62383
+[savefile] "D:\Codes\VHDL\Gowin\VBC1_Version_1\src\Wave_out_put_of_VBC1_Top.gtkw"
+[timestart] 0
+[size] 2256 1383
+[pos] -179 -176
+*-25.692995 165400000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 310
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 427
+@28
+vbc1_top_tb.clk
+@22
+vbc1_top_tb.di[3:0]
+vbc1_top_tb.ir[7:0]
+vbc1_top_tb.ir_3_to_0[3:0]
+vbc1_top_tb.led[7:0]
+vbc1_top_tb.led_io[3:0]
+vbc1_top_tb.led_op[3:0]
+@28
+vbc1_top_tb.load_dr
+vbc1_top_tb.load_led
+vbc1_top_tb.load_op
+vbc1_top_tb.load_r0
+vbc1_top_tb.load_r1
+vbc1_top_tb.load_seg
+vbc1_top_tb.m1
+vbc1_top_tb.m2
+vbc1_top_tb.m3
+vbc1_top_tb.m4
+vbc1_top_tb.m5
+vbc1_top_tb.m6
+@22
+vbc1_top_tb.mem_address[3:0]
+vbc1_top_tb.r0[3:0]
+vbc1_top_tb.r1[3:0]
+@28
+vbc1_top_tb.rst
+@22
+vbc1_top_tb.seg[6:0]
+vbc1_top_tb.sw[3:0]
+@28
+vbc1_top_tb.z0
+vbc1_top_tb.z1
+[pattern_trace] 1
+[pattern_trace] 0

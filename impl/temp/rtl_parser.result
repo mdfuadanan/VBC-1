@@ -1,0 +1,144 @@
+[
+ {
+  "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Neg_Borad_Top.vhd",
+  "InstLine" : 4,
+  "InstName" : "VBC1_Board_Top",
+  "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Neg_Borad_Top.vhd",
+  "ModuleLine" : 4,
+  "ModuleName" : "VBC1_Board_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Neg_Borad_Top.vhd",
+    "InstLine" : 26,
+    "InstName" : "U_BTN",
+    "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/One_Pulse_Button.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "One_Pulse_Button"
+   },
+   {
+    "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Neg_Borad_Top.vhd",
+    "InstLine" : 33,
+    "InstName" : "UUT",
+    "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Top.vhd",
+    "ModuleLine" : 3,
+    "ModuleName" : "VBC1_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Top.vhd",
+      "InstLine" : 66,
+      "InstName" : "IO_Mudule",
+      "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_IO_Module.vhd",
+      "ModuleLine" : 4,
+      "ModuleName" : "VBC1_IO_Module"
+     },
+     {
+      "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Top.vhd",
+      "InstLine" : 78,
+      "InstName" : "Instruction_Decoder",
+      "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Instruction_Decoder.vhd",
+      "ModuleLine" : 4,
+      "ModuleName" : "VBC1_Instruction_Decoder"
+     },
+     {
+      "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Top.vhd",
+      "InstLine" : 97,
+      "InstName" : "Data_Path",
+      "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+      "ModuleLine" : 4,
+      "ModuleName" : "VBC1_Data_Path",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 49,
+        "InstName" : "MUX2",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/2_to_1_MUX.vhd",
+        "ModuleLine" : 3,
+        "ModuleName" : "mux2_1"
+       },
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 59,
+        "InstName" : "MUX4",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/2_to_1_MUX.vhd",
+        "ModuleLine" : 3,
+        "ModuleName" : "mux2_1"
+       },
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 69,
+        "InstName" : "MUX5",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/2_to_1_MUX.vhd",
+        "ModuleLine" : 3,
+        "ModuleName" : "mux2_1"
+       },
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 79,
+        "InstName" : "ALU1",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_ALU.vhd",
+        "ModuleLine" : 5,
+        "ModuleName" : "VBC1_ALU"
+       },
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 89,
+        "InstName" : "MUX3",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/2_to_1_MUX.vhd",
+        "ModuleLine" : 3,
+        "ModuleName" : "mux2_1"
+       },
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 99,
+        "InstName" : "MUX1",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/2_to_1_MUX.vhd",
+        "ModuleLine" : 3,
+        "ModuleName" : "mux2_1"
+       },
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 109,
+        "InstName" : "REG_R0",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/4_bit_loadable_register.vhd",
+        "ModuleLine" : 4,
+        "ModuleName" : "loadable_reg_4_bit"
+       },
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 120,
+        "InstName" : "REG_R1",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/4_bit_loadable_register.vhd",
+        "ModuleLine" : 4,
+        "ModuleName" : "loadable_reg_4_bit"
+       },
+       {
+        "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Data_Path.vhd",
+        "InstLine" : 131,
+        "InstName" : "REG_OP",
+        "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/4_bit_loadable_register.vhd",
+        "ModuleLine" : 4,
+        "ModuleName" : "loadable_reg_4_bit"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Top.vhd",
+      "InstLine" : 115,
+      "InstName" : "Pre_Loaded_Memory",
+      "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/16_Byte_Instruction_Memory.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "Instruction_Memory_16_Byte"
+     },
+     {
+      "InstFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_Top.vhd",
+      "InstLine" : 123,
+      "InstName" : "RPC",
+      "ModuleFile" : "D:/Codes/VHDL/Gowin/VBC-1/src/VBC1_RPC.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "VBC1_RPC"
+     }
+    ]
+   }
+  ]
+ }
+]
